@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_contact_contacts",
+  "info": {
+    "displayName": "Contact"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Sentence": {
+      "type": "text"
+    },
+    "CTA1": {
+      "type": "string"
+    },
+    "CTA2": {
+      "type": "string"
+    },
+    "Img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

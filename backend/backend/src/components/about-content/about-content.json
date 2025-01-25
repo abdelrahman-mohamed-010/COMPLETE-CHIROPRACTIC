@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_content_about_contents",
+  "info": {
+    "displayName": "AboutContent"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "btn": {
+      "type": "string"
+    }
+  }
+}

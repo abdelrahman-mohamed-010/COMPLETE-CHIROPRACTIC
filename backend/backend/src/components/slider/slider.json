@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_slider_sliders",
+  "info": {
+    "displayName": "Slider"
+  },
+  "options": {},
+  "attributes": {
+    "texts": {
+      "type": "json"
+    }
+  }
+}

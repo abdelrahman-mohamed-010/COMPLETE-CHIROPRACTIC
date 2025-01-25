@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_hero_component_hero_components",
+  "info": {
+    "displayName": "heroComponent"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "HowItWorks": {
+      "type": "string"
+    },
+    "Welcoming": {
+      "type": "string"
+    },
+    "background": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "CTA1": {
+      "type": "string"
+    },
+    "CTA2": {
+      "type": "string"
+    }
+  }
+}

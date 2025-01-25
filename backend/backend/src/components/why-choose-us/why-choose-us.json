@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_why_choose_us_why_chooseuses",
+  "info": {
+    "displayName": "WhyChooseUS"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "firstTitle": {
+      "type": "string"
+    },
+    "FirstSentence": {
+      "type": "text"
+    },
+    "FirstIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SecondTitle": {
+      "type": "string"
+    },
+    "SecondSentence": {
+      "type": "text"
+    },
+    "SecondIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ThirdSentence": {
+      "type": "text"
+    },
+    "ThirdIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

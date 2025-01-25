@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_form_forms",
+  "info": {
+    "displayName": "Form"
+  },
+  "options": {},
+  "attributes": {
+    "CTA": {
+      "type": "string"
+    },
+    "Types": {
+      "displayName": "Types",
+      "type": "component",
+      "repeatable": true,
+      "component": "types.types"
+    }
+  }
+}

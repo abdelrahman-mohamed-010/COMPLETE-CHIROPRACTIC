@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_component_about_components",
+  "info": {
+    "displayName": "aboutComponent"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "FirstPragraph": {
+      "type": "text"
+    },
+    "SecondPragraph": {
+      "type": "text"
+    },
+    "CTA": {
+      "type": "string"
+    }
+  }
+}

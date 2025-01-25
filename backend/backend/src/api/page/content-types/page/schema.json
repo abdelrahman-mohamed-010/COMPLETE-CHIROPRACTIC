@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "landing": {
+      "type": "dynamiczone",
+      "components": [
+        "hero-component.hero-component",
+        "about.about",
+        "slider-animation.slider-animation",
+        "why-choose.why-choose",
+        "let-us-help-you.let-us-help-you",
+        "featured-section.featured-section",
+        "consultation.consultation",
+        "services.services",
+        "goals.goals",
+        "teams.teams",
+        "map.map",
+        "last-section.last-section"
+      ]
+    },
+    "About": {
+      "type": "dynamiczone",
+      "components": [
+        "about-main.about-main",
+        "diffrence.diffrence",
+        "visible-results-about.visible-results-about"
+      ]
+    },
+    "approach": {
+      "type": "dynamiczone",
+      "components": [
+        "approach.approach",
+        "what-to-expect.what-to-expect"
+      ]
+    },
+    "team": {
+      "type": "dynamiczone",
+      "components": [
+        "our-team-page.our-team-page"
+      ]
+    },
+    "Event": {
+      "type": "dynamiczone",
+      "components": [
+        "event.event"
+      ]
+    },
+    "media": {
+      "type": "dynamiczone",
+      "components": [
+        "media.media"
+      ]
+    },
+    "message": {
+      "type": "dynamiczone",
+      "components": [
+        "message-page.message-page"
+      ]
+    },
+    "Contact": {
+      "type": "dynamiczone",
+      "components": [
+        "contact-page.contact-page"
+      ]
+    },
+    "Inquiry": {
+      "type": "dynamiczone",
+      "components": [
+        "inquiry.inquiry"
+      ]
+    },
+    "Treatments": {
+      "type": "dynamiczone",
+      "components": [
+        "treatments.treatments"
+      ]
+    }
+  }
+}

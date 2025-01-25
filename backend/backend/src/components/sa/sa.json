@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_sa_sas",
+  "info": {
+    "displayName": "sa"
+  },
+  "options": {},
+  "attributes": {
+    "Slug": {
+      "type": "time"
+    }
+  }
+}

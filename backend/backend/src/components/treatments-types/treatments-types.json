@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_treatments_types_treatments_types",
+  "info": {
+    "displayName": "TreatmentsTypes"
+  },
+  "options": {},
+  "attributes": {
+    "field": {
+      "type": "string"
+    }
+  }
+}

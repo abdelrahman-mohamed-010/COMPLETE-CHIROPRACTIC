@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_visible_results_about_visible_results_abouts",
+  "info": {
+    "displayName": "visible-results-about"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "Slider": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "VideoTitle": {
+      "type": "string"
+    },
+    "VideoDesc": {
+      "type": "string"
+    },
+    "VideoLink": {
+      "type": "string"
+    },
+    "CTA": {
+      "type": "string"
+    }
+  }
+}

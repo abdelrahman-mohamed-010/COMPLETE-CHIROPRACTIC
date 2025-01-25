@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_types_types",
+  "info": {
+    "displayName": "Types"
+  },
+  "options": {},
+  "attributes": {
+    "Type": {
+      "type": "string"
+    }
+  }
+}

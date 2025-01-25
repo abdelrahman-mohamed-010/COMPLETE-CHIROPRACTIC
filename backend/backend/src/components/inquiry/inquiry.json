@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_inquiry_inquiries",
+  "info": {
+    "displayName": "Inquiry"
+  },
+  "options": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "CTA": {
+      "type": "string"
+    }
+  }
+}

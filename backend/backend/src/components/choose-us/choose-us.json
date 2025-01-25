@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_choose_us_chooseuses",
+  "info": {
+    "displayName": "ChooseUS"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "FirstSectionTitle": {
+      "type": "string"
+    },
+    "FirstSectionSentence": {
+      "type": "text"
+    },
+    "SecondSectionTitle": {
+      "type": "string"
+    },
+    "SecondSectionSentence": {
+      "type": "text"
+    },
+    "ThirdSectionTitle": {
+      "type": "string"
+    },
+    "ThirdSectionSentence": {
+      "type": "string"
+    }
+  }
+}

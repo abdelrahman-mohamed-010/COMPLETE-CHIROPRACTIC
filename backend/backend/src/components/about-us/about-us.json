@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_about_us_aboutuses",
+  "info": {
+    "displayName": "AboutUs"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "pragraphOne": {
+      "type": "text"
+    },
+    "pragraphTwo": {
+      "type": "text"
+    },
+    "ReadMore": {
+      "type": "string"
+    },
+    "img1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

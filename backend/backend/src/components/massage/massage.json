@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_massage_massages",
+  "info": {
+    "displayName": "massage"
+  },
+  "options": {},
+  "attributes": {
+    "whyMassageData": {
+      "type": "json"
+    },
+    "ourTeamData": {
+      "type": "json"
+    },
+    "massageSections": {
+      "displayName": "massageSections",
+      "type": "component",
+      "repeatable": true,
+      "component": "massage-sections.massage-sections"
+    }
+  }
+}

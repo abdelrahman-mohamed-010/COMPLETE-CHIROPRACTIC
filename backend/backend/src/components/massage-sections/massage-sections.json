@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_massage_sections_massage_sections",
+  "info": {
+    "displayName": "massageSections"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "scetionsqoutes": {
+      "displayName": "scetionsqoutes",
+      "type": "component",
+      "repeatable": true,
+      "component": "scetionsqoutes.scetionsqoutes"
+    }
+  }
+}

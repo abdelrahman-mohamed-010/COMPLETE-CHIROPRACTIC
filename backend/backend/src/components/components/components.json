@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_components",
+  "info": {
+    "displayName": "Components",
+    "icon": ""
+  },
+  "options": {},
+  "attributes": {
+    "Json": {
+      "type": "json"
+    }
+  }
+}

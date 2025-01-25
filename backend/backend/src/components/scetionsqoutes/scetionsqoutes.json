@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_scetionsqoutes_scetionsqoutes",
+  "info": {
+    "displayName": "scetionsqoutes"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_team_teams",
+  "info": {
+    "displayName": "team"
+  },
+  "options": {},
+  "attributes": {
+    "firstTitle": {
+      "type": "string"
+    },
+    "mainTitle": {
+      "type": "string"
+    },
+    "memberOneName": {
+      "type": "string"
+    },
+    "memberOneJob": {
+      "type": "string"
+    }
+  }
+}

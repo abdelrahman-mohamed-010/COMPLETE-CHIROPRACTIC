@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_team_page_team_pages",
+  "info": {
+    "displayName": "teamPage",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "team": {
+      "displayName": "teamMembers",
+      "type": "component",
+      "repeatable": true,
+      "component": "teams-members.team-members"
+    }
+  }
+}

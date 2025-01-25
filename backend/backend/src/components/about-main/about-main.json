@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_main_about_mains",
+  "info": {
+    "displayName": "AboutMain",
+    "icon": "cup"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "CTA": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

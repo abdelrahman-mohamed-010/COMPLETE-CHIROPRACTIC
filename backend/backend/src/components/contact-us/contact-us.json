@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_contact_us_contactuses",
+  "info": {
+    "displayName": "ContactUs"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Sentence": {
+      "type": "text"
+    },
+    "bookBtn": {
+      "type": "string"
+    },
+    "CallBtn": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_help_you_help_yous",
+  "info": {
+    "displayName": "HelpYou"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Sentence": {
+      "type": "text"
+    },
+    "CallBtn": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

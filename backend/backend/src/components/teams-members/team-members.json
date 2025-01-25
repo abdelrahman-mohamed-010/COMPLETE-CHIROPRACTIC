@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_teams_members_team_members",
+  "info": {
+    "displayName": "teamMembers"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "job": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "CTA": {
+      "type": "string"
+    },
+    "profile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
