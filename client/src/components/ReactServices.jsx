@@ -3,7 +3,7 @@ import { useState } from "react";
 const ReactServices = ({ servicesData }) => {
   const [IsActive, SetIsActive] = useState(servicesData?.section[0]?.Title || "");
   
-  const baseUrl = import.meta.env.STRAPI_URL;
+  const baseUrl = import.meta.env.STRAPI_URL_TWO;
   const fallbackImages = [
     "/backpain.jpg",
     "/pregnancy.jpg",

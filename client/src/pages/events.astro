@@ -2,17 +2,17 @@
 import CallToAction from '../components/CallToAction.astro';
 import PrimaryLayout from '../layouts/PrimaryLayout.astro';
 
-const baseUrl = import.meta.env.STRAPI_URL;
-const token = import.meta.env.ASTRO_APP_API_TOKEN;
+const baseUrl = import.meta.env.STRAPI_URL_TWO;
+const token = import.meta.env.ASTRO_APP_API_TOKEN_TWO;
 
-const response = await fetch(`${baseUrl}/api/pages?populate[Event][populate]=*`, {
+const response = await fetch(`${baseUrl}/api/pages?populate[event][populate]=*`, {
   headers: {
     'Authorization': `Bearer ${token}`
   }
 });
 
 const { data } = await response.json();
-const Event = data[0].Event.find((item: any) => item.__component === "event.event");
+const Event = data[0].event.find((item: any) => item.__component === "event.event");
 
 console.log(Event);
 

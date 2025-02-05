@@ -32,10 +32,10 @@ const Nav = ({ hideBookButton = false, approachItems = [] }) => {
     const fetchMassageSections = async () => {
       try {
         const response = await fetch(
-          `http://localhost:1337/api/pages?populate[message][populate]=*`,
+          `https://complete.testingweblink.com/api/pages?populate[message][populate]=*`,
           {
             headers: {
-              Authorization: `Bearer 22786f61fb5f4fdc63f72365574d19808794c5a5196a140749e59b3d268fc04eaaf02aac71aa597ec85170a9c6c2d5b241578ff37fec3b8b90183363336c6724bf305a7bb6d4d78c08a4bfe5253e35f800c0754e5cfcfa44c6d1d4ce25d2bcfbc20908da26ff18e9dfdfc5978264c29f59642b8ffdf8b2831a7d843185c1df7b`,
+              Authorization: `Bearer 9156fdbf34c5c72ea74911b6a1c01136fe2f094ce2a73a05e400899f4790a3b6978c044daa4e8e947cadebfd529dc3a2cfa728fde817cae66ab7083b32961d299beb61a6df6efbd5bae9a8355d0afaa21dd05d34a256e8e6fd5e1007a2a585c7026bed8d68ae377e6fa17e3ea76078f422f3e8af79b27a0a1b39674431d24c40`,
             },
           }
         );

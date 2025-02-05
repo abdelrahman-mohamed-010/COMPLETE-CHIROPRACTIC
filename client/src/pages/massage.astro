@@ -47,8 +47,8 @@ interface MessageComponent {
   }[];
 }
 
-const baseUrl = import.meta.env.STRAPI_URL;
-const token = import.meta.env.ASTRO_APP_API_TOKEN;
+const baseUrl = import.meta.env.STRAPI_URL_TWO;
+const token = import.meta.env.ASTRO_APP_API_TOKEN_TWO;
 
 const response = await fetch(`${baseUrl}/api/pages?populate[message][populate]=*`, {
   headers: {
@@ -86,7 +86,9 @@ const deeWhySections = message.Components.map(comp => {
       <div class="absolute max-sm:px-4 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center md:items-start gap-4 md:-translate-x-0 md:left-24">
         <h1 class="text-3xl md:text-[80px] text-white font-bold text-center md:text-left">{heroSection.title}</h1>
         <h2 class="text-3xl md:text-[80px] text-primary font-bold text-center md:text-left lg:mt-12">{heroSection.subtitle}</h2>
-        <button class="meet-our-team-btn mt-3 text-nowrap lg:mt-12">BOOK APPOINTMENT</button>
+        <a href="https://clinic27intake.bookings.pracsuite.com/guest?l=1949&_gl=1*16y1as*_ga*MTUzNzgzNjczOS4xNzM0Njk4NTMw*_ga_J0YJHQLKE6*MTczNzQ2MTIxNy4xOC4wLjE3Mzc0NjEyMTcuNjAuMC4w" target="_blank">
+          <button class="meet-our-team-btn mt-3 text-nowrap lg:mt-12">BOOK APPOINTMENT</button>
+        </a>
       </div>
     </div>
   </section>
@@ -112,9 +114,11 @@ const deeWhySections = message.Components.map(comp => {
             </li>
           ))}
         </ul>
-        <button class="meet-our-team-btn mt-3 z-20 max-md:mb-8 text-nowrap lg:mt-12 max-md:mt-8">
-          BOOK APPOINTMENT
-        </button>
+        <a href="https://clinic27intake.bookings.pracsuite.com/guest?l=1949&_gl=1*16y1as*_ga*MTUzNzgzNjczOS4xNzM0Njk4NTMw*_ga_J0YJHQLKE6*MTczNzQ2MTIxNy4xOC4wLjE3Mzc0NjEyMTcuNjAuMC4w" target="_blank">
+          <button class="meet-our-team-btn mt-3 z-20 max-md:mb-8 text-nowrap lg:mt-12 max-md:mt-8">
+            BOOK APPOINTMENT
+          </button>
+        </a>
       </p>
     </div>
   </div>
@@ -141,9 +145,11 @@ const deeWhySections = message.Components.map(comp => {
               </li>
             ))}
           </ul>
-          <button class="meet-our-team-btn mt-3 text-nowrap lg:mt-12 max-md:mt-8">
-            BOOK APPOINTMENT
-          </button>
+          <a href="https://clinic27intake.bookings.pracsuite.com/guest?l=1949&_gl=1*16y1as*_ga*MTUzNzgzNjczOS4xNzM0Njk4NTMw*_ga_J0YJHQLKE6*MTczNzQ2MTIxNy4xOC4wLjE3Mzc0NjEyMTcuNjAuMC4w" target="_blank">
+            <button class="meet-our-team-btn mt-3 text-nowrap lg:mt-12 max-md:mt-8">
+              BOOK APPOINTMENT
+            </button>
+          </a>
         </p>
       </div>
     </div>
@@ -165,9 +171,11 @@ const deeWhySections = message.Components.map(comp => {
               <h1 class="text-3xl md:text-5xl font-bold mb-4">
                 {section.title}
               </h1>
-              <button class="meet-our-team-btn z-20 max-md:mb-8 text-nowrap">
-                BOOK APPOINTMENT
-              </button>
+              <a href="https://clinic27intake.bookings.pracsuite.com/guest?l=1949&_gl=1*16y1as*_ga*MTUzNzgzNjczOS4xNzM0Njk4NTMw*_ga_J0YJHQLKE6*MTczNzQ2MTIxNy4xOC4wLjE3Mzc0NjEyMTcuNjAuMC4w" target="_blank">
+                <button class="meet-our-team-btn z-20 max-md:mb-8 text-nowrap">
+                  BOOK APPOINTMENT
+                </button>
+              </a>
             </div>
             <p class="text-lg mb-12 text-massage-text">
               {section.intro}

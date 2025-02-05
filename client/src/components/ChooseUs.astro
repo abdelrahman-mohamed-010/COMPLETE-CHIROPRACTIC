@@ -3,7 +3,7 @@ import Title from "./ui/Title.astro";
 
 // ChooseUs.astro
 const { whyChooseData } = Astro.props;
-const baseUrl = import.meta.env.STRAPI_URL;
+const baseUrl = import.meta.env.STRAPI_URL_TWO;
 ---
 
  <section class="max-w-[1860px] mx-auto px-4 xl:px-8 overflow-hidden pb-16">
@@ -23,7 +23,7 @@ const baseUrl = import.meta.env.STRAPI_URL;
 
     <!-- Item 2 -->
     <div class="text-center px-14 h-fit pb-16  max-lg:pb-5 rounded-t-[90px]  max-lg:rounded-[50px]" style="background: linear-gradient(rgba(240, 0, 29, 0.22) 0%, rgba(217, 217, 217, 0) 100%);" >
-      <img src={`${baseUrl}${whyChooseData.SecondIcon.url}`} alt="On-site Massage Therapist" class="mx-auto pt-9" />
+      <img src={`${baseUrl}${whyChooseData.secondIcon.url}`} alt="On-site Massage Therapist" class="mx-auto pt-9" />
       <h2 class="font-bold text-nowrap xl:text-3xl text-xl mt-6">{whyChooseData.secondTitle}</h2>
       <p class="xl:text-[19px] max-lg:mt-6 text-lg mt-9">{whyChooseData.secondDesc}</p>
     </div>

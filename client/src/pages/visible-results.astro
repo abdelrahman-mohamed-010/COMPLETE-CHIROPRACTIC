@@ -3,8 +3,8 @@ import CallToAction from '../components/CallToAction.astro';
 import SliderAbout from '../components/ui/SliderAbout';
 import PrimaryLayout from '../layouts/PrimaryLayout.astro';
 
-const baseUrl = import.meta.env.STRAPI_URL;
-const token = import.meta.env.ASTRO_APP_API_TOKEN;
+const baseUrl = import.meta.env.STRAPI_URL_TWO;
+const token = import.meta.env.ASTRO_APP_API_TOKEN_TWO;
 
 const response = await fetch(`${baseUrl}/api/pages?populate[About][populate]=*`, {
   headers: {
@@ -33,7 +33,7 @@ const sliderImages = visibleData.Slider.map((image: any) => ({
             <CallToAction />
             <div class="max-w-[1860px] mx-auto xl:px-8 px-4 lg:w-full sm:w-full flex flex-col justify-center items-center">
                 <h1 class="text-5xl max-sm:text-2xl font-bold text-center max-sm:mb-2 pt-12">{visibleData.Title}</h1>
-                <p class="text-[#5d5d5d] text-sm mb-8 mt-4 max-sm:text-xs max-sm:px-4 max-sm:text-center">{visibleData.desc}</p>
+                <p class="text-[#5d5d5d] text-sm mb-8 mt-4 max-sm:text-xs max-sm:px-4 max-sm:text-center">We treat neck and back pain, poor posture, sciatica, headaches, and newborn and child health issues.</p>
 
                 <div class="w-full max-sm:px-2">
                     <SliderAbout client:load images={sliderImages} />
@@ -60,7 +60,7 @@ const sliderImages = visibleData.Slider.map((image: any) => ({
                         ></iframe>
                     </div>
                 <div class="flex flex-col items-center justify-center space-y-8 mt-8">
-a                    <a href="https://clinic27intake.bookings.pracsuite.com/guest?l=1949&_gl=1*16y1as*_ga*MTUzNzgzNjczOS4xNzM0Njk4NTMw*_ga_J0YJHQLKE6*MTczNzQ2MTIxNy4xOC4wLjE3Mzc0NjEyMTcuNjAuMC4w" 
+                    <a href="https://clinic27intake.bookings.pracsuite.com/guest?l=1949&_gl=1*16y1as*_ga*MTUzNzgzNjczOS4xNzM0Njk4NTMw*_ga_J0YJHQLKE6*MTczNzQ2MTIxNy4xOC4wLjE3Mzc0NjEyMTcuNjAuMC4w" 
                        target="_blank" 
                        class="meet-our-team-btn my-14 sm:my-8 sm:px-40 sm:py-10">
                         {visibleData.CTA}
